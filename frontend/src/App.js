@@ -44,10 +44,11 @@ const Home = () => {
             {/* Desktop Menu */}
             <div className="hidden md:block">
               <div className="ml-10 flex items-baseline space-x-8">
-                <button onClick={() => scrollToSection('home')} className="text-gray-300 hover:text-blue-400 transition-colors duration-200">Home</button>
-                <button onClick={() => scrollToSection('about')} className="text-gray-300 hover:text-blue-400 transition-colors duration-200">About</button>
-                <button onClick={() => scrollToSection('services')} className="text-gray-300 hover:text-blue-400 transition-colors duration-200">Services</button>
-                <button onClick={() => scrollToSection('contact')} className="text-gray-300 hover:text-blue-400 transition-colors duration-200">Contact</button>
+                <button onClick={() => scrollToSection('home')} className="text-gray-300 hover:text-teal-400 transition-colors duration-200">Home</button>
+                <button onClick={() => scrollToSection('about')} className="text-gray-300 hover:text-teal-400 transition-colors duration-200">About</button>
+                <button onClick={() => scrollToSection('services')} className="text-gray-300 hover:text-teal-400 transition-colors duration-200">Services</button>
+                <button onClick={() => scrollToSection('products')} className="text-gray-300 hover:text-teal-400 transition-colors duration-200">Products</button>
+                <button onClick={() => scrollToSection('contact')} className="text-gray-300 hover:text-teal-400 transition-colors duration-200">Contact</button>
               </div>
             </div>
 
