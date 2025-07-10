@@ -25,9 +25,19 @@ const Home = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center">
-              <div className="flex-shrink-0">
-                <span className="text-2xl font-bold text-white">ATL</span>
-                <span className="text-blue-400 ml-2 text-sm font-light">data illuminated</span>
+              <div className="flex-shrink-0 flex items-center">
+                <div className="relative">
+                  <span className="text-2xl font-bold text-white">ATL</span>
+                  {/* Upside down crescent moon with fading U shape */}
+                  <div className="absolute -top-1 -right-6 w-5 h-5">
+                    <div className="relative w-full h-full">
+                      <div className="absolute inset-0 rounded-full bg-gradient-to-b from-transparent via-slate-400/30 to-transparent transform rotate-180"></div>
+                      <div className="absolute inset-0.5 rounded-full bg-slate-900 transform rotate-180"></div>
+                      <div className="absolute inset-0 rounded-full bg-gradient-to-t from-slate-300/60 via-transparent to-transparent transform rotate-180"></div>
+                    </div>
+                  </div>
+                </div>
+                <span className="text-teal-400 ml-2 text-sm font-light">Where Data Illuminates</span>
               </div>
             </div>
             
