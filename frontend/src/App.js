@@ -99,28 +99,48 @@ const Home = () => {
         {/* Content */}
         <div className="relative z-20 text-center max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="backdrop-blur-sm bg-slate-900/20 rounded-3xl p-8 md:p-12 border border-slate-700/30">
-            <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 leading-tight">
-              Arkay Technologies
-              <span className="block text-3xl md:text-4xl text-blue-400 font-light mt-2">Limited</span>
-            </h1>
-            <p className="text-xl md:text-2xl text-blue-300 mb-8 font-light tracking-wide">
-              data illuminated
+            <div className="flex items-center justify-center mb-8">
+              <div className="relative">
+                <h1 className="text-5xl md:text-7xl font-bold text-white leading-tight">
+                  ATL
+                </h1>
+                {/* Upside down crescent moon with fading U shape */}
+                <div className="absolute -top-2 -right-8 w-8 h-8 md:w-12 md:h-12">
+                  <div className="relative w-full h-full">
+                    <div className="absolute inset-0 rounded-full bg-gradient-to-b from-transparent via-slate-300/40 to-transparent transform rotate-180"></div>
+                    <div className="absolute inset-1 rounded-full bg-slate-900 transform rotate-180"></div>
+                    <div className="absolute inset-0 rounded-full bg-gradient-to-t from-slate-200/70 via-transparent to-transparent transform rotate-180"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <h2 className="text-3xl md:text-4xl font-light text-white mb-6">
+              Arkay Technology Limited
+            </h2>
+            <p className="text-xl md:text-2xl text-teal-400 mb-8 font-light tracking-wide">
+              Where Data Illuminates
             </p>
             <p className="text-lg md:text-xl text-gray-300 mb-10 max-w-3xl mx-auto leading-relaxed">
               Transforming businesses with cutting-edge AI/ML solutions, Edge AI integrations, and intelligent automation tools that illuminate the path to digital excellence.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
               <button 
-                onClick={() => scrollToSection('services')}
-                className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-4 rounded-full text-lg font-semibold transition-all duration-300 transform hover:scale-105 hover:shadow-lg hover:shadow-blue-500/25"
+                onClick={() => scrollToSection('about')}
+                className="bg-teal-600 hover:bg-teal-700 text-white px-8 py-4 rounded-full text-lg font-semibold transition-all duration-300 transform hover:scale-105 hover:shadow-lg hover:shadow-teal-500/25"
               >
-                Explore Services
+                Know More
+              </button>
+              <button 
+                onClick={() => scrollToSection('products')}
+                className="border-2 border-teal-400 text-teal-400 hover:bg-teal-400 hover:text-white px-8 py-4 rounded-full text-lg font-semibold transition-all duration-300 transform hover:scale-105"
+              >
+                Products
               </button>
               <button 
                 onClick={() => scrollToSection('contact')}
                 className="border-2 border-blue-400 text-blue-400 hover:bg-blue-400 hover:text-white px-8 py-4 rounded-full text-lg font-semibold transition-all duration-300 transform hover:scale-105"
               >
-                Get In Touch
+                Talk to ZIPI
               </button>
             </div>
           </div>
