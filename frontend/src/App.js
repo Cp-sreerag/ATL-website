@@ -74,10 +74,11 @@ const Home = () => {
         {isMenuOpen && (
           <div className="md:hidden bg-slate-800/95 backdrop-blur-xl border-t border-slate-700/50">
             <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-              <button onClick={() => scrollToSection('home')} className="block w-full text-left px-3 py-2 text-gray-300 hover:text-blue-400 transition-colors duration-200">Home</button>
-              <button onClick={() => scrollToSection('about')} className="block w-full text-left px-3 py-2 text-gray-300 hover:text-blue-400 transition-colors duration-200">About</button>
-              <button onClick={() => scrollToSection('services')} className="block w-full text-left px-3 py-2 text-gray-300 hover:text-blue-400 transition-colors duration-200">Services</button>
-              <button onClick={() => scrollToSection('contact')} className="block w-full text-left px-3 py-2 text-gray-300 hover:text-blue-400 transition-colors duration-200">Contact</button>
+              <button onClick={() => scrollToSection('home')} className="block w-full text-left px-3 py-2 text-gray-300 hover:text-teal-400 transition-colors duration-200">Home</button>
+              <button onClick={() => scrollToSection('about')} className="block w-full text-left px-3 py-2 text-gray-300 hover:text-teal-400 transition-colors duration-200">About</button>
+              <button onClick={() => scrollToSection('services')} className="block w-full text-left px-3 py-2 text-gray-300 hover:text-teal-400 transition-colors duration-200">Services</button>
+              <button onClick={() => scrollToSection('products')} className="block w-full text-left px-3 py-2 text-gray-300 hover:text-teal-400 transition-colors duration-200">Products</button>
+              <button onClick={() => scrollToSection('contact')} className="block w-full text-left px-3 py-2 text-gray-300 hover:text-teal-400 transition-colors duration-200">Contact</button>
             </div>
           </div>
         )}
