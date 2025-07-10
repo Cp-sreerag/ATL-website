@@ -549,12 +549,12 @@ const Home = () => {
             </div>
 
             <div>
-              <h4 className="text-white font-semibold mb-4">Services</h4>
+              <h4 className="text-white font-semibold mb-4">Products & Services</h4>
               <ul className="space-y-2 text-gray-400">
+                <li>ZIPI AI Assistant</li>
                 <li>AI/ML Solutions</li>
                 <li>Edge AI Integration</li>
                 <li>Data Analytics</li>
-                <li>ZIPI AI Assistant</li>
               </ul>
             </div>
 
