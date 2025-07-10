@@ -530,8 +530,18 @@ const Home = () => {
           <div className="grid md:grid-cols-3 gap-8">
             <div>
               <div className="flex items-center mb-4">
-                <span className="text-2xl font-bold text-white">ATL</span>
-                <span className="text-blue-400 ml-2 text-sm font-light">data illuminated</span>
+                <div className="relative">
+                  <span className="text-2xl font-bold text-white">ATL</span>
+                  {/* Moon symbol for footer */}
+                  <div className="absolute -top-1 -right-6 w-5 h-5">
+                    <div className="relative w-full h-full">
+                      <div className="absolute inset-0 rounded-full bg-gradient-to-b from-transparent via-slate-400/30 to-transparent transform rotate-180"></div>
+                      <div className="absolute inset-0.5 rounded-full bg-slate-900 transform rotate-180"></div>
+                      <div className="absolute inset-0 rounded-full bg-gradient-to-t from-slate-300/60 via-transparent to-transparent transform rotate-180"></div>
+                    </div>
+                  </div>
+                </div>
+                <span className="text-teal-400 ml-2 text-sm font-light">Where Data Illuminates</span>
               </div>
               <p className="text-gray-400 leading-relaxed">
                 Arkay Technologies Limited - Transforming businesses with intelligent AI solutions and cutting-edge technology.
