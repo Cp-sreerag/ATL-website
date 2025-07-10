@@ -284,6 +284,84 @@ const Home = () => {
         </div>
       </section>
 
+      {/* Products Section */}
+      <section id="products" className="py-20 bg-slate-900/60 backdrop-blur-sm">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">Our Products</h2>
+            <p className="text-xl text-gray-300 max-w-3xl mx-auto">
+              Flagship products that embody our commitment to AI innovation and excellence
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-2 gap-12 items-center">
+            <div className="bg-slate-800/60 backdrop-blur-sm rounded-2xl p-8 border border-slate-700/30 hover:border-teal-500/50 transition-all duration-300">
+              <div className="flex items-center mb-6">
+                <div className="relative">
+                  <h3 className="text-4xl font-bold text-white">ZIPI</h3>
+                  {/* Moon symbol for ZIPI */}
+                  <div className="absolute -top-1 -right-6 w-6 h-6">
+                    <div className="relative w-full h-full">
+                      <div className="absolute inset-0 rounded-full bg-gradient-to-b from-transparent via-teal-400/40 to-transparent transform rotate-180"></div>
+                      <div className="absolute inset-0.5 rounded-full bg-slate-900 transform rotate-180"></div>
+                      <div className="absolute inset-0 rounded-full bg-gradient-to-t from-teal-300/60 via-transparent to-transparent transform rotate-180"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <p className="text-teal-400 text-lg font-semibold mb-4">AI Assistant & Virtual Intelligence Platform</p>
+              <p className="text-gray-300 leading-relaxed mb-6">
+                Our flagship AI assistant designed specifically for businesses. ZIPI evolves continuously to meet the dynamic needs of modern enterprises, providing intelligent automation, customer support, and business process optimization.
+              </p>
+              <div className="space-y-3">
+                <div className="flex items-center space-x-3">
+                  <div className="w-2 h-2 bg-teal-400 rounded-full"></div>
+                  <span className="text-gray-300">Intelligent Business Automation</span>
+                </div>
+                <div className="flex items-center space-x-3">
+                  <div className="w-2 h-2 bg-teal-400 rounded-full"></div>
+                  <span className="text-gray-300">Advanced Customer Support</span>
+                </div>
+                <div className="flex items-center space-x-3">
+                  <div className="w-2 h-2 bg-teal-400 rounded-full"></div>
+                  <span className="text-gray-300">Continuous Learning & Evolution</span>
+                </div>
+                <div className="flex items-center space-x-3">
+                  <div className="w-2 h-2 bg-teal-400 rounded-full"></div>
+                  <span className="text-gray-300">Multi-Platform Integration</span>
+                </div>
+              </div>
+              <div className="mt-8">
+                <button className="bg-teal-600 hover:bg-teal-700 text-white px-6 py-3 rounded-full font-semibold transition-all duration-300 transform hover:scale-105">
+                  Talk to ZIPI
+                </button>
+              </div>
+            </div>
+
+            <div className="space-y-6">
+              <div className="bg-slate-800/60 backdrop-blur-sm rounded-2xl p-6 border border-slate-700/30">
+                <h4 className="text-xl font-semibold text-white mb-3">Smart Analytics Suite</h4>
+                <p className="text-gray-300">
+                  Comprehensive data analytics platform that transforms raw data into actionable business insights.
+                </p>
+              </div>
+              <div className="bg-slate-800/60 backdrop-blur-sm rounded-2xl p-6 border border-slate-700/30">
+                <h4 className="text-xl font-semibold text-white mb-3">Edge AI Solutions</h4>
+                <p className="text-gray-300">
+                  Hardware-integrated AI systems for real-time processing and decision-making at the edge.
+                </p>
+              </div>
+              <div className="bg-slate-800/60 backdrop-blur-sm rounded-2xl p-6 border border-slate-700/30">
+                <h4 className="text-xl font-semibold text-white mb-3">Custom AI Models</h4>
+                <p className="text-gray-300">
+                  Tailored machine learning models built specifically for your business requirements and data.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Why Choose ATL Section */}
       <section className="py-20 bg-slate-800/50 backdrop-blur-sm">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
